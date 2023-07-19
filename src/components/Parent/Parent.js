@@ -22,6 +22,7 @@ function handleBobsPats() {
   return (
     <div>
         <Child name={name} pats={pats} handleBobsPats={handleBobsPats} />
+        <Child name={"Peter"} />
     </div>
   );
 }
